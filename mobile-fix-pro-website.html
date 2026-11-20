@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mobile Fix Pro - Mobile phone repair services. Contact us for display, battery, charging and software repairs.">
+  <meta name="theme-color" content="#101827">
+  <title>Mobile Fix Pro | Mobile Repair Services</title>
+  <style>
+    :root{--navy:#101827;--blue:#2563eb;--cyan:#22d3ee;--ink:#172033;--muted:#64748b;--bg:#f5f7fb;--white:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+    a{text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+    header{background:var(--navy);color:#fff;position:sticky;top:0;z-index:5;box-shadow:0 3px 16px #0002}
+    .nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{font-weight:900;font-size:1.35rem;letter-spacing:.3px}.brand span{color:var(--cyan)}
+    nav{display:flex;gap:20px;flex-wrap:wrap}nav a{color:#e2e8f0;font-size:.93rem}
+    .hero{background:linear-gradient(125deg,#101827 5%,#173b72 65%,#087e9b);color:#fff;padding:76px 0 82px}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:35px;align-items:center}
+    .eyebrow{color:var(--cyan);font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:.78rem}
+    h1{font-size:clamp(2.5rem,6vw,4.6rem);line-height:1.04;margin:14px 0 18px}
+    .hero p{color:#dbeafe;font-size:1.08rem;max-width:580px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+    .btn{display:inline-block;padding:12px 20px;border-radius:10px;font-weight:700}
+    .primary{background:#22c55e;color:#052e16}.secondary{border:1px solid #9fb6d5;color:#fff}
+    .phone-art{min-height:280px;border:1px solid #ffffff35;border-radius:28px;background:#ffffff12;display:grid;place-items:center;padding:24px}
+    .phone{width:145px;height:245px;border:7px solid #dbeafe;border-radius:25px;background:linear-gradient(160deg,#22d3ee,#2563eb 60%,#111827);box-shadow:0 20px 50px #0005;position:relative}
+    .phone:before{content:"";position:absolute;width:48px;height:8px;background:#dbeafe;border-radius:8px;top:7px;left:42px}
+    .phone:after{content:"✓";position:absolute;inset:0;display:grid;place-items:center;font-size:4rem;color:white;font-weight:bold}
+    section{padding:65px 0}.section-title{text-align:center;margin:0 0 10px;font-size:2rem}.sub{text-align:center;color:var(--muted);margin:0 auto 32px;max-width:650px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:#fff;padding:23px;border-radius:16px;box-shadow:0 8px 28px #1720330b;border:1px solid #e7ebf2}
+    .icon{width:46px;height:46px;border-radius:13px;background:#eaf2ff;color:var(--blue);display:grid;place-items:center;font-size:1.35rem}
+    .card h3{margin:13px 0 5px}.card p{margin:0;color:var(--muted);font-size:.95rem}
+    .why{background:#eaf1fb}.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;text-align:center}
+    .why strong{display:block;font-size:1.08rem;margin-bottom:5px}.why p{margin:0;color:var(--muted)}
+    .contact{background:var(--navy);color:#fff}.contact .sub{color:#cbd5e1}.contact-box{max-width:680px;margin:auto;background:#ffffff0d;border:1px solid #ffffff24;border-radius:18px;padding:28px;text-align:center}
+    .contact-box p{color:#dbeafe}.contact-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+    footer{background:#0b1220;color:#cbd5e1;text-align:center;padding:20px;font-size:.9rem}
+    .note{font-size:.82rem;color:#94a3b8;margin-top:18px}
+    @media(max-width:720px){.hero-grid{grid-template-columns:1fr}.phone-art{min-height:220px}.cards{grid-template-columns:1fr 1fr}.why-grid{grid-template-columns:1fr}nav{gap:11px}.nav{padding:12px 0;align-items:flex-start;flex-direction:column}}
+    @media(max-width:440px){.cards{grid-template-columns:1fr}.hero{padding:55px 0}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#">MOBILE <span>FIX PRO</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#services">Services</a><a href="#about">Why Us</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Mobile Repair & Support</div>
+        <h1>Your Phone.<br>Fixed Right.</h1>
+        <p>Need help with your smartphone? Mobile Fix Pro offers mobile repair services and friendly support. Contact us to ask about your device and repair options.</p>
+        <div class="actions">
+          <a class="btn primary" href="#contact">Contact Us</a>
+          <a class="btn secondary" href="#services">View Services</a>
+        </div>
+      </div>
+      <div class="phone-art" aria-label="Mobile phone repair illustration"><div class="phone"></div></div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <h2 class="section-title">Our Repair Services</h2>
+      <p class="sub">Select a service below, then contact us to confirm availability, price and repair time.</p>
+      <div class="cards">
+        <article class="card"><div class="icon">▣</div><h3>Display & Screen</h3><p>Screen and touch-related repair enquiries.</p></article>
+        <article class="card"><div class="icon">▰</div><h3>Battery Replacement</h3><p>Battery, backup and power-related issues.</p></article>
+        <article class="card"><div class="icon">ϟ</div><h3>Charging Repair</h3><p>Charging port and charging problems.</p></article>
+        <article class="card"><div class="icon">⚙</div><h3>Software Support</h3><p>Software, update and phone setup assistance.</p></article>
+        <article class="card"><div class="icon">⌁</div><h3>Water Damage</h3><p>Inspection and support for liquid-damaged phones.</p></article>
+        <article class="card"><div class="icon">✚</div><h3>Other Repairs</h3><p>Contact us about other smartphone problems.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="why">
+    <div class="wrap">
+      <h2 class="section-title">Why Choose Mobile Fix Pro?</h2>
+      <p class="sub">A simple, customer-first approach to mobile repair.</p>
+      <div class="why-grid">
+        <div><strong>Helpful Support</strong><p>Speak with us about your phone issue.</p></div>
+        <div><strong>Repair Guidance</strong><p>Understand the repair options before proceeding.</p></div>
+        <div><strong>Multiple Services</strong><p>Ask about a range of smartphone repairs.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <h2 class="section-title">Get in Touch</h2>
+      <p class="sub">Call or message us to enquire about a repair.</p>
+      <div class="contact-box">
+        <h3>Mobile Fix Pro</h3>
+        <p><strong>Shop location:</strong> Jhirpani, Rourkela, Odisha</p>
+        <p><strong>Phone / WhatsApp:</strong> +91 79788 54256</p>
+        <div class="contact-actions">
+          <!-- Replace 91XXXXXXXXXX with your WhatsApp number including country code, digits only. -->
+          <a class="btn primary" href="https://wa.me/917978854256">WhatsApp Us</a>
+          <a class="btn secondary" href="tel:+917978854256">Call Us</a>
+        </div>
+        <p class="note">For repair enquiries, contact Mobile Fix Pro using the buttons above.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>© <span id="year"></span> Mobile Fix Pro. All rights reserved.</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
